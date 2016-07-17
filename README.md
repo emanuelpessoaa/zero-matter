@@ -23,11 +23,6 @@ First, include the script located on the DIST folder.
 <script> src="dist/zeromatter.min.js"></script>
 ```
 
-
-```
-dist/zeromatter.min.js 
-```
-
 Now, you need to instantiate it by passing a DOM selector.
 ```javascript
 var darkforce = new ZeroMatter('.className');
