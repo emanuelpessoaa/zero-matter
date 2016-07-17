@@ -9,7 +9,7 @@
     "test": "test"
   },
   "scripts": {
-    "build-min": "uglifyjs dist/zeromatter.js --comments '/!/' -m screw_ie8=true -c screw_ie8=true,unused=false -o dist/zeromatter.min.js"
+    "build-min": "uglifyjs src/zeromatter.js --comments '/!/' -m screw_ie8=true -c screw_ie8=true,unused=false -o dist/zeromatter.min.js"
   },
   "keywords": [
     "effect",
