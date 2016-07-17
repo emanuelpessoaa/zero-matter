@@ -20,7 +20,7 @@ If you're not into package management, just [download a ZIP file](https://github
 
 First, include the script located on the DIST folder.
 ```html
-<script> src="dist/zeromatter.min.js"></script>
+<script src="dist/zeromatter.min.js"></script>
 ```
 
 Now, you need to instantiate it by passing a DOM selector.
