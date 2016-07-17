@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>target-class</title>
+    
+    <!-- 1. Insert the fade css. Just .zmfadeOut and .zmfadeIn -->
+    
+    <style>
+    .zmfadeOut {
+        opacity:0;
+        -webkit-opacity:0;
+        -moz-opacity:0;
+        -webkit-transition:all 0.3s ease;
+        -moz-transition:all 0.3s ease;
+        -ms-transition:all 0.3s ease;
+        -o-transition:all 0.3s ease;
+        transition:all 0.3s ease;
+    }
+    .zmfadeIn {opacity:1;
+        -webkit-opacity:1;
+        -moz-opacity:1;
+        -webkit-transition:all 0.3s ease;
+        -moz-transition:all 0.3s ease;
+        -ms-transition:all 0.3s ease;
+        -o-transition:all 0.3s ease;
+        transition:all 0.3s ease;
+    }
+    
+    /*NOT THIS*/body{margin:55px;display:flex;flex-direction:column;flex-wrap:wrap;justify-content: center;}body > *{margin: 0 auto;text-align:center;width:450px;}h1{font-size:60px}p{color:#cc3366;font-size: 30px}
+    </style>
+</head>
+<body>
+
+    <!-- 1. Define some markup -->
+    
+    <h1>First title here</h1>
+    <h2 class="hideThisOnScroll" style="background:SkyBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:DeepSkyBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:CornflowerBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:MediumSlateBlue">Hide This On Scroll</h2>
+    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <h1>Second title here</h1>
+    <h2 class="hideThisOnScroll" style="background:SkyBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:DeepSkyBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:CornflowerBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:MediumSlateBlue">Hide This On Scroll</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <h1>Third title here</h1>
+    <h2 class="hideThisOnScroll" style="background:SkyBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:DeepSkyBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:CornflowerBlue">Hide This On Scroll</h2>
+    <h2 class="hideThisOnScroll" style="background:MediumSlateBlue">Hide This On Scroll</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <h1>Fourth there</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <!-- 2. Include library -->
+    <script src="../dist/zeromatter.min.js"></script>
+
+    <!-- 3. Instantiate zeromatter -->
+    <script>
+        
+        var darkforce = new ZeroMatter('.hideThisOnScroll');
+    
+    </script>
+</body>
+</html>
