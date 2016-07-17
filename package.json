@@ -4,7 +4,7 @@
   "description": "Zero Matter is a simple library for adding effect to elements when scrolling the page.",
   "repository": "emanuelpessoaa/zero-matter",
   "license": "MIT",
-  "main": "lib/zeromatter.js",
+  "main": "src/zeromatter.js",
   "directories": {
     "test": "test"
   },
