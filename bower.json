@@ -1,0 +1,24 @@
+{
+  "name": "zero-matter",
+  "description": "Zero Matter is a simple library for adding effect to elements when scrolling the page.",
+  "main": "src/zeromatter.js",
+  "authors": [
+    "Emanuel Pessoa"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "effect",
+    "fade",
+    "scroll",
+    "css3",
+    "nojquery"
+  ],
+  "homepage": "https://github.com/emanuelpessoaa/zero-matter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
